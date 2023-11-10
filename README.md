@@ -1,11 +1,11 @@
-About odc-cloud
-===============
+About odc-cloud-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/odc-cloud-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/opendatacube/odc-tools/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/odc-cloud-feedstock/blob/main/LICENSE.txt)
 
 Summary: Various AWS helper methods
 
@@ -144,4 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@Ariana-B](https://github.com/Ariana-B/)
+* [@SpacemanPaul](https://github.com/SpacemanPaul/)
+* [@omad](https://github.com/omad/)
 
