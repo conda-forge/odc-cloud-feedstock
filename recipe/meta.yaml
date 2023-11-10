@@ -22,10 +22,13 @@ requirements:
     - python >=3.7
     - botocore
     - boto3
+    - aiobotocore
 
 test:
   imports:
-    - odc
+    - odc.aws
+    - odc.cloud
+    - odc.aio
   commands:
     - pip check
   requires:
@@ -40,3 +43,5 @@ about:
 extra:
   recipe-maintainers:
     - Ariana-B
+    - omad
+    - SpacemanPaul
