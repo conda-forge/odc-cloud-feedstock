@@ -144,4 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@Ariana-B](https://github.com/Ariana-B/)
+* [@SpacemanPaul](https://github.com/SpacemanPaul/)
+* [@omad](https://github.com/omad/)
 
