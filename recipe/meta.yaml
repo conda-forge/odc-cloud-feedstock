@@ -1,18 +1,18 @@
 {% set name = "odc-cloud" %}
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/odc-cloud-{{ version }}.tar.gz
-  sha256: ec5ad436b89ddadc5cd13ef7dac8b15d7b49fc4c9f1d939e1915696f169981f9
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: d33222ff953d3c365fcae72465854ccda293394938427e5a686967b399ddd1ce
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
